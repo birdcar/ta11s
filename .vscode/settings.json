@@ -1,0 +1,62 @@
+{
+  "css.validate": false,
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 100,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "emmet.includeLanguages": {
+    "nunjucks": "html"
+  },
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "files.associations": {
+    "**/*.html": "nunjucks"
+  },
+  "files.autoSave": "off",
+  "git.allowForcePush": true,
+  "git.alwaysSignOff": false,
+  "git.autoStash": true,
+  "git.confirmForcePush": true,
+  "git.countBadge": "tracked",
+  "git.enableCommitSigning": true,
+  "git.fetchOnPull": true,
+  "git.inputValidation": "always",
+  "git.inputValidationSubjectLength": 50,
+  "git.showPushSuccessNotification": true,
+  "git.suggestSmartCommit": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.proseWrap": "always",
+  "prettier.singleQuote": false,
+  "zenMode.centerLayout": true,
+  "zenMode.fullScreen": true,
+  "zenMode.hideActivityBar": true,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.hideTabs": true,
+  "zenMode.restore": false,
+  "zenMode.silentNotifications": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 4,
+    "editor.wordWrap": "off"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

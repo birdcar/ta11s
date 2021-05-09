@@ -1,0 +1,13 @@
+---
+layout: base
+---
+
+<main id="main" class="container mx-auto">
+  <h1 class="text-8xl">{{ title if title else site.title }}</h1>
+
+  {% if subtitle %}
+  <p>{{ subtitle }}</p>
+  {% else %}
+  <p>{{ site.description }}</p>
+  {% endif %}
+</main>
