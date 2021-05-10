@@ -16,10 +16,10 @@ Once your copy of the template repository exists, you can clone the repository t
 
 ```shell
 # Using git
-git clone https://github.com/birdcar/ta11s
+git clone https://github.com/$YOUR_GITHUB_USERNAME/$NAME_OF_REPOSITORY_YOU_CHOSE_ABOVE
 
 # Or, using the GitHub CLI
-gh clone birdcar/ta11s
+gh clone $YOUR_GITHUB_USERNAME/$NAME_OF_REPOSITORY_YOU_CHOSE_ABOVE
 ```
 
 Then install the project's dependencies:
