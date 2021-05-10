@@ -12,15 +12,23 @@ Alternatively, you could use the [GitHub CLI](https://cli.github.com/) to consum
 gh repo create $DESIRED_NAME_OF_REPOSITORY --template birdcar/ta11s
 ```
 
-Once your copy of the template repository exists, you can clone the repository to your local computer and install the project's dependencies like so:
+Once your copy of the template repository exists, you can clone the repository to your local computer:
+
+```shell
+# Using git
+git clone https://github.com/birdcar/ta11s
+
+# Or, using the GitHub CLI
+gh clone birdcar/ta11s
+```
+
+Then install the project's dependencies:
 
 ```shell
 npm install
 ```
 
-If all dependencies install as expected, you'll then be able to run the site locally using `npm start`.
-
-Happy hacking!
+Finally, you can run the site locally using `npm start` and then opening your web browser to `http://localhost:8081`.
 
 ## Supporting documentation
 
